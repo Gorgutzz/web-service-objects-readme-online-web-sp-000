@@ -20,5 +20,4 @@ class FoursquareService
         @friends = JSON.parse(resp.body)["response"]["friends"]["items"]
     end
 
-
-end 
+end
